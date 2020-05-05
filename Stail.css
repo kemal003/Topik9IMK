@@ -1,6 +1,7 @@
 h1{
   font-family: Consolas;
   font-style: italic;
+  font-size: 50px;
 }
 
 h3 {
@@ -11,24 +12,19 @@ body{
   background-color: #333639;
   color: white;
   font-family: monospace;
-  font-size: 110%;
+}
+
+.Organisasi{
+  background-color: #616363;
 }
 
 .Beranda {
   text-align: center;
 }
 
-.GarisKontak {
-  border-style: solid;
-  width: 100%;
-  border-width: 2px;
-}
-
 hr {
-  border-style: none;
-  border-top: dotted;
+  border-style: inset;
   border-width: 5px;
-  width: 30%;
 }
 
 ul, li{
