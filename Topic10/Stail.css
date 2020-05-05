@@ -4,10 +4,17 @@
   width: 100%;
 }
 
+.GarisKiri{
+  margin: 0;
+  width: 30%;
+}
+
 h1{
   font-family: Consolas;
   font-style: italic;
   font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h2{
@@ -43,6 +50,11 @@ body{
   text-align: center;
 }
 
+.Kontak {
+  margin: 2%;
+  text-align: left;
+}
+
 hr {
   border-style: none;
   border-top-style: dashed;
@@ -58,7 +70,16 @@ ul, li{
 
 table {
   border-color: white;
-  margin: 0 auto;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+input {
+  border-radius: 25px;
+}
+
+.TabelTengah {
+  margin: auto;
 }
 
 tr, td {
@@ -68,6 +89,12 @@ tr, td {
 th {
   padding: 10px;
   text-align: center;
+  background-color: black;
+}
+
+#Nama {
+  border-radius: 25px;
+  background-color: black;
 }
 
 img {
