@@ -1,3 +1,8 @@
+#Header{
+  border-style: inset;
+  border-width: 5px;
+}
+
 h1{
   font-family: Consolas;
   font-style: italic;
@@ -9,12 +14,16 @@ h3 {
 }
 
 body{
-  background-color: #333639;
+  background-color: black;
   color: white;
   font-family: monospace;
 }
 
-.Organisasi{
+#Profil{
+  background-color: #00004f;
+}
+
+#Organisasi{
   background-color: #616363;
 }
 
@@ -23,8 +32,8 @@ body{
 }
 
 hr {
-  border-style: inset;
-  border-width: 5px;
+  border-style: solid;
+  border-width: 2px;
 }
 
 ul, li{
