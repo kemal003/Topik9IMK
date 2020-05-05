@@ -1,0 +1,102 @@
+.Batas{
+  border-style: inset;
+  border-width: 5px;
+  width: 100%;
+}
+
+.GarisKiri{
+  margin: 0;
+  width: 30%;
+}
+
+h1{
+  font-family: Consolas;
+  font-style: italic;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2{
+  font-family: "Gill Sans MT";
+  margin: 4px;
+}
+
+h3 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body{
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  font-size: 120%;
+  margin: 0;
+}
+
+#Profil{
+  background-color: #00004f;
+}
+
+#Data{
+  font-family: "Comic Sans MS";
+  font-size: 80%;
+  background-color: #333639;
+  text-align: left;
+}
+
+.Beranda {
+  text-align: center;
+}
+
+.Kontak {
+  margin: 2%;
+  text-align: left;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dashed;
+  border-width: 5px;
+  margin: auto;
+  width: 70%;
+}
+
+ul, li{
+  text-align: left;
+  line-height: 25px;
+}
+
+table {
+  border-color: white;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+input {
+  border-radius: 25px;
+}
+
+.TabelTengah {
+  margin: auto;
+}
+
+tr, td {
+  padding: 10px;
+}
+
+th {
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+}
+
+#Nama {
+  border-radius: 25px;
+  background-color: black;
+}
+
+img {
+  border-radius: 10%;
+}
