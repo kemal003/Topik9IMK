@@ -1,6 +1,7 @@
-#Header{
+.Batas{
   border-style: inset;
   border-width: 5px;
+  width: 100%;
 }
 
 h1{
@@ -9,22 +10,33 @@ h1{
   font-size: 50px;
 }
 
+h2{
+  font-family: "Gill Sans MT";
+  margin: 4px;
+}
+
 h3 {
   font-family: sans-serif;
+  text-align: center;
 }
 
 body{
   background-color: black;
   color: white;
   font-family: monospace;
+  font-size: 120%;
+  margin: 0;
 }
 
 #Profil{
   background-color: #00004f;
 }
 
-#Organisasi{
-  background-color: #616363;
+#Data{
+  font-family: "Comic Sans MS";
+  font-size: 80%;
+  background-color: #333639;
+  text-align: left;
 }
 
 .Beranda {
@@ -32,8 +44,11 @@ body{
 }
 
 hr {
-  border-style: solid;
-  border-width: 2px;
+  border-style: none;
+  border-top-style: dashed;
+  border-width: 5px;
+  margin: auto;
+  width: 70%;
 }
 
 ul, li{
@@ -43,6 +58,16 @@ ul, li{
 
 table {
   border-color: white;
+  margin: 0 auto;
+}
+
+tr, td {
+  padding: 10px;
+}
+
+th {
+  padding: 10px;
+  text-align: center;
 }
 
 img {
