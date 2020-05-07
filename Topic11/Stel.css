@@ -12,6 +12,12 @@ tr, td {
   padding: 10px;
 }
 
+h1 {
+  font-family: "Caveat Brush", cursive;
+  font-weight: normal;
+  font-size: 300%;
+}
+
 h2 {
   font-family: 'Indie Flower', cursive;
 }
@@ -20,12 +26,6 @@ a {
   font-family: 'Indie Flower', cursive;
   color: #c2c2c2;
   text-decoration: none;
-}
-
-.profil h2 {
-  font-size: 180%;
-  font-family: 'Caveat', cursive;
-  font-style: italic;
 }
 
 #spasiAtas {
@@ -56,7 +56,7 @@ a {
 .fotoProfilContainer {
   text-align: center;
   height: 100%;
-  width: 5%;
+  width: 60px;
   position: absolute;
   left: 1%;
   /* background-color: red; */
@@ -79,7 +79,7 @@ a {
   position: absolute;
   right: 1%;
   height: 100%;
-  width: 40%;
+  width: 550px;
   border-bottom: 4px solid #c2c2c2;
   border-radius: 5px;
   text-align: center;
@@ -103,6 +103,7 @@ li {
 
 .profil {
   margin: 0;
+  height: auto;
   width: 100%;
   background-image: url("https://i.ibb.co/q5WHnv3/background.jpg");
   background-size: cover;
@@ -111,13 +112,24 @@ li {
 }
 
 .profil .overlay {
-  height: 600px;
+  height: auto;
+}
+
+.profil .small-line {
+  margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 .profil h1 {
   margin: 0;
   font-family: 'Sacramento', cursive;
-  font-size: 400%;
+  font-size: 60px;
+  font-style: italic;
+}
+
+.profil h2 {
+  font-size: 30px;
+  font-family: 'Caveat', cursive;
   font-style: italic;
 }
 
@@ -130,24 +142,17 @@ li {
   margin-bottom: 30px;
 }
 
-h1 {
-  font-family: "Caveat Brush", cursive;
-  font-weight: normal;
-  font-size: 300%;
-}
-
 p {
   font-family: 'Balsamiq Sans', cursive;
 }
 
 .fotoDeskripsi {
-  z-index: -2;
   position: relative;
 }
 
 .fotoDeskripsi img {
-  width: 40%;
-  height: 40%;
+  width: 350px;
+  height: 350px;
   margin: 0;
   padding: 4px;
   border: 4px solid white;
@@ -155,6 +160,7 @@ p {
 }
 
 .profilDiri {
+  height: auto;
   text-align: center;
   background-image: url("Foto/background2.jpg");
   background-size: cover;
@@ -163,7 +169,7 @@ p {
 }
 
 .profilDiri .overlay {
-  height: 1100px;
+  height: auto;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -172,8 +178,8 @@ p {
 }
 
 .profilDiri img {
-  width: 20%;
-  height: 20%;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
   padding: 4px;
   border: 4px solid white;
@@ -217,11 +223,12 @@ p {
 .sosmed {
   line-height: 20px;
   margin: 0 auto;
-  width: 40%;
+  width: 600px;
   height: 80%;
 }
 
 .small-line {
+  margin: 0 auto;
   border: 1px solid white;
   width: 10%;
   border-radius: 15px;
