@@ -4,14 +4,6 @@ body {
   color: white;
 }
 
-table{
-  margin: 0 auto;
-}
-
-tr, td {
-  padding: 10px;
-}
-
 h1 {
   font-family: "Caveat Brush", cursive;
   font-weight: normal;
@@ -26,6 +18,10 @@ a {
   font-family: 'Indie Flower', cursive;
   color: #c2c2c2;
   text-decoration: none;
+}
+
+p {
+  font-family: 'Balsamiq Sans', cursive;
 }
 
 #spasiAtas {
@@ -59,7 +55,6 @@ a {
   width: 60px;
   position: absolute;
   left: 1%;
-  /* background-color: red; */
 }
 
 #fotoProfil {
@@ -84,7 +79,6 @@ a {
   border-radius: 5px;
   text-align: center;
   font-weight: bold;
-  /* background-color: red; */
 }
 
 ul {
@@ -142,10 +136,6 @@ li {
   margin-bottom: 30px;
 }
 
-p {
-  font-family: 'Balsamiq Sans', cursive;
-}
-
 .fotoDeskripsi {
   position: relative;
 }
@@ -162,10 +152,9 @@ p {
 .profilDiri {
   height: auto;
   text-align: center;
-  background-image: url("Foto/background2.jpg");
+  background-image: url("https://i.ibb.co/M5P9my6/background2.jpg");
   background-size: cover;
   background-position: center;
-  /* background-color: red; */
 }
 
 .profilDiri .overlay {
