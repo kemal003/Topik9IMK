@@ -16,9 +16,15 @@ h2 {
   font-family: 'Indie Flower', cursive;
 }
 
+a {
+  font-family: 'Indie Flower', cursive;
+  color: #c2c2c2;
+  text-decoration: none;
+}
+
 .profil h2 {
   font-size: 180%;
-  font-family: monospace;
+  font-family: 'Caveat', cursive;
   font-style: italic;
 }
 
@@ -30,26 +36,21 @@ h2 {
 }
 
 .overlay {
-  z-index: 3;
   width: auto;
-  height: 600px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .header {
+  z-index: 2;
   width: 100%;
   height: 50px;
   margin-top: 0;
   position: fixed;
+  top: 0px;
   background-image: linear-gradient(to bottom,
     rgba(0,0,0,1),
     rgba(0,0,0,0.7),
     rgba(0,0,0,0));
-}
-
-.header a {
-  color: #c2c2c2;
-  text-decoration: none;
 }
 
 .fotoProfilContainer {
@@ -83,11 +84,10 @@ h2 {
   border-radius: 5px;
   text-align: center;
   font-weight: bold;
-  font-family: 'Indie Flower', cursive;
   /* background-color: red; */
 }
 
-.menu ul {
+ul {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -96,7 +96,7 @@ h2 {
   width: auto;
 }
 
-.menu li {
+li {
   padding: 0 20px;
   display: inline-block;
 }
@@ -104,11 +104,14 @@ h2 {
 .profil {
   margin: 0;
   width: 100%;
-  /* height: 600px; */
   background-image: url("https://i.ibb.co/q5WHnv3/background.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
+}
+
+.profil .overlay {
+  height: 600px;
 }
 
 .profil h1 {
@@ -153,9 +156,19 @@ p {
 
 .profilDiri {
   text-align: center;
-  background-image: url("Foto/background2.jpeg");
+  background-image: url("Foto/background2.jpg");
   background-size: cover;
   background-position: center;
+  /* background-color: red; */
+}
+
+.profilDiri .overlay {
+  height: 1050px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.profilDiri p {
+  line-height: 150%;
 }
 
 .profilDiri img {
@@ -166,18 +179,46 @@ p {
   border: 4px solid white;
 }
 
-.riwayatpend {
+.konten {
   padding-top: 0px;
   text-align: left;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 80px;
   position: relative;
   width: 60%;
 }
 
-.riwayatpend img {
+#riwayatpend {
   float: left;
   margin-right: 30px;
+}
+
+#organisasi {
+  float: right;
+  margin-left: 30px;
+}
+
+#kompetensi {
+  float: left;
+  margin-right: 30px;
+}
+
+.footer {
+  text-align: center;
+  height: 200px;
+}
+
+#listSosmed a {
+  font-size: 30px;
+  font-style: normal;
+  font-family: 'Caveat', cursive;
+}
+
+.sosmed {
+  line-height: 20px;
+  margin: 0 auto;
+  width: 40%;
+  height: 80%;
 }
 
 .small-line {
@@ -202,4 +243,14 @@ p {
   background-image: linear-gradient(to bottom,
     rgba(0, 0, 0, 1),
     rgba(0, 0, 0, 0));
+}
+
+#batas3 {
+  border-width: 0;
+  margin: 0;
+  height: 20px;
+  width: 100%;
+  background-image: linear-gradient(to bottom,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 1));
 }
