@@ -61,15 +61,15 @@ p {
 .fotoProfilContainer {
   text-align: center;
   height: auto;
-  width: 100px;
+  width: 10%;
   position: absolute;
-  left: 1%;
+  left: 20px;
   top: 20px;
 }
 
 
 #fotoProfil {
-  width: 50%;
+  width: 100%;
   height: auto;
   margin: 0;
   border-radius: 50%;
@@ -158,11 +158,11 @@ ul {
 
 .fotoDeskripsi {
   margin: 0 auto;
-  width: 30vw;
+  width: 100%;
 }
 
 .fotoDeskripsi img {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: 0;
   padding: 4px;
