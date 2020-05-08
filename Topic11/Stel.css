@@ -21,11 +21,19 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: white;
+  background-color: grey;
+  border-radius: 80%;
+  padding: 4px;
+}
+
 p {
   font-family: 'Balsamiq Sans', cursive;
 }
 
 #spasiAtas {
+  z-index: -3;
   border-style: none;
   border-width: 0;
   margin: 0;
@@ -119,12 +127,9 @@ ul {
   height: auto;
 }
 
-.profil .small-line {
-  margin: 0 auto;
-  margin-bottom: 100px;
-}
-
 .profil h1 {
+  padding: 0;
+  padding-top: 230px;
   margin: 0;
   font-family: 'Sacramento', cursive;
   font-size: 5vw;
@@ -135,6 +140,11 @@ ul {
   font-size: 2vw;
   font-family: 'Caveat', cursive;
   font-style: italic;
+}
+
+#invisibel {
+  width: 100%;
+  height: 200px;
 }
 
 .deskripsi {
