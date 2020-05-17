@@ -1,0 +1,28 @@
+body {
+  background-color: #000;
+  color: white;
+}
+
+
+/* JUDUL */
+
+.navbar-brand {
+  font-family: 'Balsamiq Sans';
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+}
+
+.nav-item {
+  padding: 0;
+  padding-right:
+}
+
+#judul .container-fluid {
+  padding: 20px 80px;
+}
+
+.bobaTitle {
+  width: 300px;
+}
