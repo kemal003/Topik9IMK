@@ -5,6 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="img/logo.png">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Montserrat&display=swap" rel="stylesheet">
@@ -19,7 +20,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
   <!-- CSS Sendiri -->
-  <link rel="stylesheet" href="css/stail.css">
+  <link rel="stylesheet" href="stail.css">
   <title>T&B</title>
 </head>
 
@@ -29,23 +30,25 @@
 
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href=""> T&B </a>
+        <a class="navbar-brand" href="">
+          <img src="img/logo.png" width="50px" alt="">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarMenu">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#tentang"> Tentang </a>
+              <a class="nav-link" href="#tentang"> About Us </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#special"> Special </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href=""> Menu </a>
+              <a class="nav-link" href="#menu"> Menu </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href=""> Hubungi Kami </a>
+              <a class="nav-link" href="#contact"> Hubungi Kami </a>
             </li>
           </ul>
         </div>
@@ -72,18 +75,41 @@
     <div class="overlay">
       <div class="batas1"></div>
       <div class="container-fluid">
-        <h2>Tau emang T&B?</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/tentang.jpg" alt="">
+          </div>
+          <div class="col-md-6 tau">
+            <h2>Tau emang T&B?</h2>
+            <hr class="small-line">
+            <br>
+            <p>
+              T&B itu Tea & Boba. Udah gitu aja. Tapi jangan lupa di order, karna ga
+              bakal nyesel nantinya. Percaya deh. Kami sendiri aja percaya masa anda ngga?
+            </p>
+            <br>
+            <p>
+              Lah, tunggu apa lagi? Ga percaya? Order ae langsung!
+            </p>
+
+          </div>
+        </div>
+        <br>
         <hr class="small-line">
         <br>
-        <p>
-          T&B itu Tea & Boba. Udah gitu aja. Tapi jangan lupa di order, karna ga
-          bakal nyesel nantinya. Percaya deh. Kami sendiri percaya masa anda ngga?
-        </p>
-        <br>
-        <br>
-        <p>
-          Lah, tunggu apa lagi? Ga percaya? Order ae langsung!
-        </p>
+        <div class="row">
+          <div class="col-md-6 lokasi">
+            <h2 class="tulisanLokasi">Lokasi</h2>
+            <hr class="small-line">
+            <br>
+            T&B sudah membuka cabang di berbagai daerah, salah satunya di Jl. Sunan Kalijaga No. 11 <br>
+            Sebelah Utara Alun-Alun Trenggalek. Buruan datang!
+          </div>
+          <div class="col-md-6">
+            <iframe id="maps"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16264.949814283555!2d111.70389803534773!3d-8.052462360996886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa758e772761c0eab!2sAlun-Alun%20Kabupaten%20Trenggalek!5e0!3m2!1sid!2sid!4v1589989921698!5m2!1sid!2sid"></iframe>
+          </div>
+        </div>
       </div>
       <div class="batas2"></div>
     </div>
@@ -97,44 +123,48 @@
         <li data-target="#slideSpecial" data-slide-to="0" class="active"></li>
         <li data-target="#slideSpecial" data-slide-to="1"></li>
         <li data-target="#slideSpecial" data-slide-to="2"></li>
+        <li data-target="#slideSpecial" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
+          <img class="promo" src="img/promo.jpg" alt="">
+        </div>
+        <div class="carousel-item">
           <div class="row">
             <div class="col-lg-6 gambarSlide">
-              <img src="img/special1.png" alt="">
+              <img class="imgSlide" src="img/special1.png" alt="">
             </div>
             <div class="col-lg-6 isiSlide">
               <h3>MASIH KURANG BESAR?</h3>
               <h4>Kami punya yang paling besar (800ml)</h4>
               <h4>"JUMBA"</h4>
-              <h1>Rp. 19.000</h1>
+              <h1>Rp. 39.000</h1>
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="row">
             <div class="col-lg-6 gambarSlide">
-              <img src="img/special2.jpg" alt="">
+              <img class="imgSlide" src="img/special2.jpg" alt="">
             </div>
             <div class="col-lg-6 isiSlide">
               <h3>PESEN SATU TAPI KURANG?</h3>
               <h4>Kami punya dobel. Tambah Es Krim lagi</h4>
               <h4>"DOUBLA"</h4>
-              <h1>Rp. 49.000</h1>
+              <h1>Rp. 69.000</h1>
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="row">
             <div class="col-lg-6 gambarSlide">
-              <img src="img/special3.jpg" alt="">
+              <img class="imgSlide" src="img/special3.jpg" alt="">
             </div>
             <div class="col-lg-6 isiSlide">
               <h3>MASIH KURANG JUGA??</h3>
               <h4>Bandel, tapi gapapa, order aja</h4>
               <h4>"BOGALON 5L"</h4>
-              <h1>Rp. 99.000</h1>
+              <h1>Rp. 149.000</h1>
             </div>
           </div>
         </div>
@@ -297,6 +327,35 @@
       </div>
     </div>
 
+  </section>
+
+  <section id="contact">
+    <h3>FOR MORE INFO</h3>
+    <div class="container-fluid contactContainer">
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <img class="logo" src="img/logo.png" alt="">
+        </div>
+        <div class="col-md-6 listContact">
+          <h4>CONTACT US ON :</h4>
+          <ul >
+            <li>
+              <a href=""> Instagram </a>
+            </li>
+            <li>
+              <a href=""> Facebook </a>
+            </li>
+            <li>
+              <a href=""> Twitter </a>
+            </li>
+            <li>
+              <a href="mailto:kemal003@student.ub.ac.id"> Email </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </section>
 
 </body>
