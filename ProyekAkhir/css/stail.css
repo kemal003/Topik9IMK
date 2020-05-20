@@ -1,10 +1,15 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Balsamiq Sans';
   background-color: #000;
   color: white;
-  background:"backgroundBody.jpg";
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -16,12 +21,17 @@ h1 {
 h2 {
   text-align: center;
   font-size: 3rem;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'PT Sans', sans-serif;
   margin-top: 5%;
 }
 
 h3 {
   font-size: 2.5rem;
+}
+
+h4 {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
 }
 
 .batas1 {
@@ -46,7 +56,7 @@ h3 {
 }
 
 .small-line {
-  margin: 0 auto;
+  margin: 1% auto;
   border: 1px solid white;
   width: 10%;
   border-radius: 15px;
@@ -55,7 +65,7 @@ h3 {
 /* JUDUL */
 #judul {
   font-family: 'Bebas Neue', cursive;
-  padding: 3%  5%;
+  padding: 2%  5%;
   padding-bottom: 0;
 }
 
@@ -89,7 +99,7 @@ h3 {
 .beranda {
   background-color: #000;
   border-radius: 5%;
-  box-shadow: 10px 10px 10px 10px black;
+  box-shadow: 0 5px 5px 5px black;
   margin: 0;
   margin-bottom: 5%;
 }
@@ -104,13 +114,21 @@ h3 {
 }
 
 #tentang .container-fluid {
-  padding: 4% 15%;
+  padding: 1% 15% 5%;
+}
+
+#tentang h2 {
+  margin: 0;
 }
 
 /* SPECIAL */
 #special {
   padding: 8% 0;
   padding-top: 0;
+}
+
+#special h2 {
+  margin: 3% 0;
 }
 
 #slideSpecial {
@@ -134,9 +152,34 @@ h3 {
 
 .carousel-inner {
   background-color: #000;
-  box-shadow: 10px 10px 10px 10px black;
+  box-shadow: 0 5px 5px 5px black;
   border-radius: 5%;
   padding: 5%;
+}
+
+/* MENU */
+
+#menu {
+  padding: 3% 10%;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+}
+
+.card {
+  background-color: #262626;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  scroll-behavior: smooth;
+  transform: translateY(-15px);
+  /* border: 3px solid white; */
+  box-shadow: 0 5px 5px 5px black;
+  /* transform: scale(1.05); */
+}
+
+.menuList {
+  margin: 2% 0;
 }
 
 @media (max-width: 992px) {
@@ -149,6 +192,11 @@ h3 {
   }
 
   .bobaTitle {
-    width: 350px;
+    width: 300px;
+  }
+
+  #slideSpecial img {
+    width: 200px;
+    height: 340px;
   }
 }
