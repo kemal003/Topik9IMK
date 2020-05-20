@@ -165,6 +165,15 @@ h4 {
   text-align: center;
 }
 
+#menu h2 {
+  margin-top: 0;
+}
+
+#menu h6 {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
 .card {
   background-color: #262626;
   transition: 0.3s ease;
