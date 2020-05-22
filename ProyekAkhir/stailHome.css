@@ -62,6 +62,17 @@ h4 {
   border-radius: 15px;
 }
 
+hr {
+  border: 4px solid white;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.bagianNavbar {
+  padding: 2% 5%;
+  padding-bottom: 0;
+}
+
 /* JUDUL */
 #judul {
   font-family: 'Bebas Neue', cursive;
@@ -285,6 +296,10 @@ h4 {
     text-align: center;
     padding: 0;
     padding-top: 20px;
+  }
+
+  #contact li {
+    display: inline-block;
   }
 
   .lokasi {
