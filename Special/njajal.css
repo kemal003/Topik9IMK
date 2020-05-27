@@ -63,3 +63,14 @@ body {
   color: grey;
   font-family: 'Chelsea Market', cursive;
 }
+
+
+@media (max-width: 768px) {
+  #time {
+      font-size: 3rem;
+  }
+
+  #salam {
+      font:size: 1rem;
+  }
+}
