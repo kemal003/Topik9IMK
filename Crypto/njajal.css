@@ -5,15 +5,24 @@ body {
   text-align: center;
   font-size: 3rem;
   margin: 0;
-  background-image: url("https://i.ibb.co/Xx2vttd/anjay.jpg");
+  background-image: url("https://i.ibb.co/fd3qr3m/ea3fd3102ccf575e3c33954f73eab78d.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 100%;
-  padding: 12% 8%;
+  padding: 7% 8%;
   font-family: monospace;
   margin: 0;
+}
+
+.coinmarketcap-currency-widget{
+  display: inline-block;
+}
+
+h1{
+  font-family: 'Chelsea Market', cursive;
+  font-size: 2rem;
 }
 
 #time {
@@ -47,7 +56,7 @@ body {
 }
 
 #searchBar:focus {
-  border: 2px solid #fc008f;
+  border: 2px solid white;
 }
 
 #google {
@@ -67,10 +76,10 @@ body {
 
 @media (max-width: 768px) {
   #time {
-      font-size: 3rem;
+    font-size: 3rem;
   }
 
   #salam {
-      font-size: 1rem;
+    font-size: 1rem;
   }
 }
